@@ -28,7 +28,7 @@ const Experience: React.FC = () => {
 
 const experience = [
   {
-    title: "Summer Research Intern – IIT Jammu (Remote) | Jun 2024 – Jul 2024",
+    title: "AI Research Intern – IIT Jammu (Remote) | Jun 2024 – Jul 2024",
     desc: [
       "Gained hands-on exposure to Large Language Models (LLMs), Generative AI, and Agentic AI, including architectures, fine-tuning, and deployment.",
       "Explored and experimented with OpenAI and Gemini APIs as well as open-source pre-trained models using Hugging Face Transformer library to develop AI-powered applications. ",

@@ -52,7 +52,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           "@": <Socials />,
           themes: <Themes />,
           banner: <Welcome />,
-          whoami: <p style={{ marginTop: "10px", marginBottom: "9px"}}>I am here, but not to stay; the world is not mine, only borrowed for a time—who am I?<br/><i>- A visitor</i></p>,
+          whoami: <p style={{ marginTop: "3px", marginBottom: "9px"}}>I am here, but not to stay; the world is not mine, only borrowed for a time—who am I?<br/><i>- A visitor</i></p>,
           skills: <Skills />,
           exp: <Experience />,
           res: <Resume />
