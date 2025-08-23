@@ -73,15 +73,15 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Hybrid Intrusion Detection System for Cloud Environment",
-    desc: "A hybrid IDS for cloud networks trained on CSE-CIC-IDS2018, combining deep learning (SAE, CNN, LSTM) with ML classifiers (RF, XGBoost, Logistic Regression).",
-    url: "https://github.com/AryanJain1304/Hybrid-ML-DL-Intrusion-Detection-System"
+    title: "AutoML Hub",
+    desc: "Developed an end-to-end AutoML platform with natural language task input, dynamic model selection, and interactive evaluation via Gradio and Gemini API.",
+    //url: "https://github.com/AryanJain1304/Hybrid-ML-DL-Intrusion-Detection-System"
   },
   {
     id: 2,
-    title: "Benchmarking Regression Models for Forecasting Gold ETF Prices",
-    desc: "Comparison of performance of multiple regression models for gold etf price prediction; Extra Trees achieved best results with R² = 0.99 and MSE = 3.43.",
-    url: "https://github.com/AryanJain1304/Benchmarking-Regression-Models-for-Gold-Prices-Forecasting"
+    title: "Telegram Chatbot Powered by Mistral LLM",
+    desc: "Developed a context-aware, scalable Telegram chatbot using Aiogram, Python, and the Mistral LLM via Ollama API with real-time streaming and async handling.",
+    //url: "https://github.com/AryanJain1304/Hybrid-ML-DL-Intrusion-Detection-System"
   },
   {
     id: 3,
@@ -97,6 +97,24 @@ const projects = [
   },
   {
     id: 5,
+    title: "Voice-Activated Weather Assistant ",
+    desc: "Built a voice-interactive weather assistant using Vapi for voice calls, n8n for workflow automation, Google Gemini API for natural language understanding, and OpenWeatherMap API for real-time weather data.",
+    //url: "http://replit.com/@aryanjain221/SeoInspect",
+  },
+  {
+    id: 6,
+    title: "Hybrid Intrusion Detection System for Cloud Environment",
+    desc: "A hybrid IDS for cloud networks trained on CSE-CIC-IDS2018, combining deep learning (SAE, CNN, LSTM) with ML classifiers (RF, XGBoost, Logistic Regression).",
+    url: "https://github.com/AryanJain1304/Hybrid-ML-DL-Intrusion-Detection-System"
+  },
+  {
+    id: 7,
+    title: "Benchmarking Regression Models for Forecasting Gold ETF Prices",
+    desc: "Comparison of performance of multiple regression models for gold etf price prediction; Extra Trees achieved best results with R² = 0.99 and MSE = 3.43.",
+    url: "https://github.com/AryanJain1304/Benchmarking-Regression-Models-for-Gold-Prices-Forecasting"
+  },
+  {
+    id: 8,
     title: "Modular Steganography System",
     desc: "A simple steganography web application to hide confidential data using Least Significant Bit technique",
     url: "https://github.com/AryanJain1304/Modular-Steganography-System",

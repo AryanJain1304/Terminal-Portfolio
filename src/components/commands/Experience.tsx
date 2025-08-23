@@ -31,9 +31,8 @@ const experience = [
     title: "Summer Research Intern – IIT Jammu (Remote) | Jun 2024 – Jul 2024",
     desc: [
       "Gained hands-on exposure to Large Language Models (LLMs), Generative AI, and Agentic AI, including architectures, fine-tuning, and deployment.",
-      "Built practical NLP applications such as chatbots, summarization, and translation systems, while addressing model performance and bias.",
-      "Explored creative AI applications in text, design, and storytelling, leveraging generative modeling techniques.",
-      "Researched and analyzed autonomous AI systems for decision-making in robotics and smart environments, with emphasis on ethics.",
+      "Explored and experimented with OpenAI and Gemini APIs as well as open-source pre-trained models using Hugging Face Transformer library to develop AI-powered applications. ",
+      "Learned and implemented automation workflows using N8N for efficient AI model integration and deployment. ",
       "Completed a capstone project integrating LLMs, generative modeling, and agentic AI to design an end-to-end AI-driven solution.",
     ],
   },

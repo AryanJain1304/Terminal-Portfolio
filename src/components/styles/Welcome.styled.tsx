@@ -44,6 +44,9 @@ export const PreImg = styled.pre`
   @media (max-width: 550px) {
     display: none;
   }
+  @media (max-width: 936px) {
+    margin-left: 160px;
+  }
 `;
 
 export const Seperator = styled.div`

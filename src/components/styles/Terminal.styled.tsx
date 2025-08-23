@@ -6,8 +6,10 @@ export const Wrapper = styled.div`
 
   display: flex;
   flex-direction: column-reverse;
-  max-height: calc(100vh - 2rem);
+  justify-content: flex-end;
+  min-height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
 `;
 
 export const CmdNotFound = styled.div`

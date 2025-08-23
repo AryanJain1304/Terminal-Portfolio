@@ -13,6 +13,8 @@ import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
 import Skills from "./commands/Skills";
 import Experience from "./commands/Experience";
+import Resume from "./commands/Resume";
+import Courses from "./commands/Courses";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -45,13 +47,15 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           help: <Help />,
           hist: <History />,
           proj: <Projects />,
+          course: <Courses />,
           pwd: <GeneralOutput>/home/aryanjain</GeneralOutput>,
           "@": <Socials />,
           themes: <Themes />,
-          wlc: <Welcome />,
-          whoami: <GeneralOutput>visitor</GeneralOutput>,
+          banner: <Welcome />,
+          whoami: <p style={{ marginTop: "10px", marginBottom: "9px"}}>I am here, but not to stay; the world is not mine, only borrowed for a time—who am I?<br/><i>- A visitor</i></p>,
           skills: <Skills />,
           exp: <Experience />,
+          res: <Resume />
         }[cmd]
       }
     </OutputContainer>

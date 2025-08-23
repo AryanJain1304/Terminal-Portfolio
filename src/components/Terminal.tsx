@@ -29,22 +29,24 @@ type Command = {
 }[];
 
 export const commands: Command = [
-  { cmd: "about", desc: "about Aryan Jain", tab: 8 },
-  { cmd: "wlc", desc: "display hero section", tab: 10 },
-  { cmd: "edu", desc: "my education background", tab: 10 },
-  { cmd: "exp", desc: "view my work experience", tab: 10 },
-  { cmd: "skills", desc: "view my technical skills", tab: 7 },
-  { cmd: "proj", desc: "view projects that I've coded", tab: 9 },
-  { cmd: "gui", desc: "go to my portfolio in GUI", tab: 10 },
-  { cmd: "@", desc: "contact me", tab: 12 },
-  { cmd: "themes", desc: "check available themes", tab: 7 },
-  { cmd: "help", desc: "check available commands", tab: 9 },
-  { cmd: "hist", desc: "view command history", tab: 9 },
-  { cmd: "echo", desc: "print out anything", tab: 9 },
-  { cmd: "pwd", desc: "print current working directory", tab: 10 },
-  { cmd: "clear", desc: "clear the terminal", tab: 8 },
+  { cmd: "about", desc: "Learn more about me", tab: 8 },
+  { cmd: "banner", desc: "Display the banner", tab: 7 },
+  { cmd: "edu", desc: "My education background", tab: 10 },
+  { cmd: "exp", desc: "View my work experience", tab: 10 },
+  { cmd: "skills", desc: "Checkout my technical skills", tab: 7 },
+  { cmd: "proj", desc: "A glimpse into my work", tab: 9 },
+  { cmd: "course", desc: "View the courses and certifications I have done", tab: 7 },
+  { cmd: "gui", desc: "Visit my GUI portfolio", tab: 10 },
+  { cmd: "res", desc: "Download my resume as PDF", tab: 10 },
+  { cmd: "@", desc: "You can find me here!", tab: 12 },
+  { cmd: "themes", desc: "Check available themes", tab: 7 },
+  { cmd: "help", desc: "Check available commands", tab: 9 },
+  { cmd: "hist", desc: "View command history", tab: 9 },
+  { cmd: "echo", desc: "Print out anything", tab: 9 },
+  { cmd: "pwd", desc: "Print current working directory", tab: 10 },
+  { cmd: "clear", desc: "Clear the terminal", tab: 8 },
   //{ cmd: "email", desc: "send an email to me", tab: 8 },
-  { cmd: "whoami", desc: "about current user", tab: 7 },
+  { cmd: "whoami", desc: "A truly perplexing question", tab: 7 },
 ];
 
 type Term = {
@@ -67,7 +69,7 @@ const Terminal = () => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const [inputVal, setInputVal] = useState("");
-  const [cmdHistory, setCmdHistory] = useState<string[]>(["wlc"]);
+  const [cmdHistory, setCmdHistory] = useState<string[]>(["banner"]);
   const [rerender, setRerender] = useState(false);
   const [hints, setHints] = useState<string[]>([]);
   const [pointer, setPointer] = useState(-1);
@@ -264,7 +266,7 @@ const Terminal = () => {
           <div key={_.uniqueId(`${cmdH}_`)}>
             {(() => {
               const isSeedWelcome =
-                cmdH === "wlc" && index === cmdHistory.length - 1;
+                cmdH === "banner" && index === cmdHistory.length - 1;
               return isSeedWelcome ? null : (
                 <div>
                   <TermInfo />

@@ -29,7 +29,7 @@ const skills = [
   },
   {
     title: "Machine Learning Tools",
-    desc: "Scikit-Learn, TensorFlow, Keras, PyTorch",
+    desc: "Scikit-Learn, TensorFlow, Keras, PyTorch, Hugging Face, Transformers, OpenCV, CrewAI ",
   },
   {
     title: "Data Analysis & Visualization Tools",
@@ -37,7 +37,7 @@ const skills = [
   },
   {
     title: "Machine Learning Skills",
-    desc: "Supervised Learning, Deep Learning (CNN, RNN), Computer Vision, Hyperparameter Optimization",
+    desc: "Supervised Learning, Deep Learning, Computer Vision, Hyperparameter Optimization",
   },
   {
     title: "Web Development",
@@ -46,6 +46,10 @@ const skills = [
   {
     title: "Database Tools",
     desc: "MySQL, Oracle Database, MongoDB",
+  },
+  {
+    title: "Automation & Deployment Tools",
+    desc: "N8N, Docker, Jenkins",
   },
 ];
 
