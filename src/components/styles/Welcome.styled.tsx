@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
   }
 
   div {
-    @media (min-width: 1024px) {
+    @media (min-width: 1340px) {
       flex-basis: 50%;
     }
   }
@@ -44,7 +44,7 @@ export const PreImg = styled.pre`
   @media (max-width: 550px) {
     display: none;
   }
-  @media (max-width: 936px) {
+  @media (max-width: 952px) {
     margin-left: 160px;
   }
 `;
